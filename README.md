@@ -1,4 +1,4 @@
-# freeCodeCamp - Certificate 1 - Survey Form
+# <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg" width="30px">freeCodeCamp - Certificate 1 - Survey Form
 
 ## Description
 
