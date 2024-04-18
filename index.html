@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <h1 id="title">Survey Form</h1>
+    <p id="description">This survey is going to collect your data</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">What is your name: <input id="name" type="text" required placeholder="Your name"/></label>
+        <label id="email-label" for="email">Please enter your email: <input id="email" type="email" required placeholder="namename@gmail.com"/></label>
+        <label id="number-label" for="number">Please enter your number: <input id="number" min="10" max="13" type="number" pattern="[0-9]{8,10}" placeholder="07123456789"/></label>
+      </fieldset>
+      <fieldset>
+         <label for="dropdown">What is your favourite fruit?</label>
+          <select id="dropdown" name="fruit">
+            <option value="">(select one)</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Banana">Banana</option>
+            <option value="Cucumber">Cucumber</option>
+           </select>
+      </fieldset>
+      <fieldset>
+        <legend>Favourite meal of the day?</legend>
+        <label><input value="breakfast" type="radio" name="meal" checked >Breakfast</label>
+        <label><input value="lunch" type="radio" name="meal" > Lunch</label>
+        <label><input value="dinner" type="radio" name="meal" >Dinner</label>
+      </fieldset>
+      <fieldset>
+        <legend>Other favourite foods?</legend>
+        <label for="bread"><input type="checkbox" value="bread"name="bread"/>Bread
+        <label for="spaghetti"><input type="checkbox" value="spaghetti" name="spaghetti"/>Spaghetti
+        <label for="pie"><input type="checkbox" value="pie" name="pie"/>Pie
+        <label for="mash"><input type="checkbox" value="mash" name="mash"/>Mash
+        <label for="cupcake"><input type="checkbox" value="cupcake" name="cupcake"/>Cupcake
+      </fieldset>
+      <fieldset>
+        <label for="meals">Provide a description of your favourite meal: 
+        <textarea id="meals" name="meals" rows="3" cols="30" placeholder="I like to eat sausages and mash..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+</html>
