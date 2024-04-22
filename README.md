@@ -1,6 +1,6 @@
 # <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg" width="30px"> freeCodeCamp - Certificate 1 - Survey Form
 
-This repository is for my first index.html file, which is the first certificate in the freeCodeCamp course. It is a simple survey form designed to teach very basic elemenets of HTML.
+This repository is for my first index.html file, which is the first certificate in the freeCodeCamp course. It is a simple survey form designed to teach very basic elements of HTML.
 
 ## Description
 
